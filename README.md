@@ -1,4 +1,27 @@
 [![Mohamed Ahmed Banner](https://raw.githubusercontent.com/yourusername/yourrepo/main/assets/banner1.svg)](https://github.com/yourusername)
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6a11cb">
+        <animate attributeName="stop-color" values="#6a11cb;#2575fc;#6a11cb" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#2575fc">
+        <animate attributeName="stop-color" values="#2575fc;#6a11cb;#2575fc" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#grad)" />
+  
+  <!-- Wolf Icon -->
+  <image href="https://cdn-icons-png.flaticon.com/512/616/616408.png" x="500" y="80" width="200" height="200">
+    <animateTransform attributeName="transform" attributeType="XML" type="scale" values="1;1.1;1" dur="3s" repeatCount="indefinite"/>
+  </image>
+  
+  <!-- Text -->
+  <text x="50%" y="350" font-size="40" fill="white" text-anchor="middle" font-family="Arial" font-weight="bold">
+    Mohamed Ahmed | AI Engineer & Web Developer
+  </text>
+</svg>
 
 <h1 align="center">Hi there 👋, I'm Mohamed Ahmed</h1>
 <h3 align="center">AI Engineer | Web Developer | Tech Enthusiast</h3>
